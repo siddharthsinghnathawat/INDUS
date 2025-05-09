@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="INDUS - India's premier luxury sports car manufacturer. Experience unparalleled performance and elegance.">
+    <title>INDUS | The Sports Car of India</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+</head>
+<body>
+    <div class="preloader">
+        <img src="car.png" alt="Loading" class="wheel" />
+        <div class="loading-text">Experience Performance</div>
+    </div>
+    
+    <header class="sticky-nav">
+        <div class="nav">
+            <div class="logo"><h2>INDUS</h2></div>
+            <div class="bar">
+                <ul><a href="#models">Models</a></ul>
+                <ul><a href="#configurator">Build Yours</a></ul>
+                <ul><a href="#about">About</a></ul>
+                <ul><a href="#contact">Contact</a></ul>
+                <ul><a href="#" class="cta-button">Book Test Drive</a></ul>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero car1">
+        <div class="hero-content">
+            <h1 class="ra">Top Luxury Car Brand in India</h1>
+            <p class="tagline">Redefining automotive excellence</p>
+            <a href="#models" class="explore-btn">Explore Models <i class="fas fa-arrow-down"></i></a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <section class="car2" id="models">
+        <h2 class="ra1">A symphony of design and darkness</h2>
+        <div class="model-showcase">
+            <div class="model-card">
+                <h3>INDUS VX</h3>
+                <p>0-100 km/h in 3.2s</p>
+                <p>Starting at ₹2.5 Cr</p>
+            </div>
+            <div class="model-card">
+                <h3>INDUS GT</h3>
+                <p>0-100 km/h in 3.8s</p>
+                <p>Starting at ₹1.8 Cr</p>
+            </div>
+        </div>
+    </section>
+
+  
+<section class="configurator" id="configurator">
+    <h2>BUILD YOUR INDUS</h2>
+    
+    <div class="model-selector">
+        <h3>SELECT MODEL</h3>
+        <div class="models">
+            <button class="model-btn active" data-model="vx">INDUS VX</button>
+            <button class="model-btn" data-model="gt">INDUS GT</button>
+            <button class="model-btn" data-model="r">INDUS R</button>
+        </div>
+    </div>
+
+
+    <div class="car-viewer">
+        <div class="car-rotation">
+            <img id="car-image" src=".jpeg" alt="INDUS VX">
+        </div>
+        <div class="rotation-controls">
+            <button id="rotate-left"><i class="fas fa-chevron-left"></i></button>
+            <span>DRAG TO ROTATE</span>
+            <button id="rotate-right"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+
+    <div class="color-selector">
+        <h3>SELECT COLOR</h3>
+        <div class="colors">
+            <div class="color-option active" data-color="black" style="background-color: #111;"></div>
+            <div class="color-option" data-color="silver" style="background-color: #c0c0c0;"></div>
+            <div class="color-option" data-color="red" style="background-color: #cc0000;"></div>
+            <div class="color-option" data-color="blue" style="background-color: #003366;"></div>
+        </div>
+    </div>
+
+
+    <div class="summary">
+        <h3>YOUR INDUS <span id="selected-model">VX</span></h3>
+        <p>Color: <span id="selected-color">Onyx Black</span></p>
+        <button class="cta-button">BOOK A TEST DRIVE</button>
+    </div>
+</section>
+
+    <section class="car4" id="about">
+        <div class="about-content">
+            <h2>Indian Engineering, Global Standards</h2>
+            <p>Founded in 2023, INDUS represents the pinnacle of Indian automotive engineering combined with world-class luxury.</p>
+            <div class="stats">
+                <div class="stat">
+                    <div class="number">650+</div>
+                    <div class="label">HP</div>
+                </div>
+                <div class="stat">
+                    <div class="number">320</div>
+                    <div class="label">km/h</div>
+                </div>
+                <div class="stat">
+                    <div class="number">100%</div>
+                    <div class="label">Made in India</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="car5" id="contact">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Email">
+                <input type="tel" placeholder="Phone">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit" class="cta-button">Send Inquiry</button>
+            </form>
+        </div>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">INDUS</div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Careers</a>
+                <a href="#">Dealers</a>
+            </div>
+            <div class="newsletter">
+                <input type="email" placeholder="Subscribe to our newsletter">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2023 INDUS Motors. All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body></html>
