@@ -1,4 +1,3 @@
-https://siddharthsinghnathawat.github.io/INDUS/
 # 🚗 INDUS - Luxury Sports Cars of India  
 
 A sleek, interactive website for **INDUS Motors**, featuring:  
@@ -20,7 +19,3 @@ A sleek, interactive website for **INDUS Motors**, featuring:
 
 ## **🛠️ Setup & Deployment**  
 
-1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/yourusername/indus-cars.git
-   cd indus-cars
